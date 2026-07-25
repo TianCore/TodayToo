@@ -1,0 +1,42 @@
+# ============================================ #
+#  Unity .gitignore
+# ============================================ #
+
+# --- Unity generated --- #
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# --- IDE / Editor --- #
+.vs/
+.vsconfig
+.idea/
+*.csproj
+*.sln
+*.slnx
+
+# --- OS --- #
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Package manager --- #
+/[Pp]ackages/[Pp]ackage[Ss]ource[Mm]ap/
+/[Aa]ssets/[Ss]treaming[Aa]ssets/
+
+# --- Crashlytics --- #
+CrashlyticsBuildLog.csv
+
+# --- Android --- #
+*.apk
+*.aab
+*.keystore
+
+# --- iOS / macOS --- #
+*.ipa
+*.dSYM.zip
+*.dSYM
